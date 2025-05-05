@@ -1,0 +1,42 @@
+/* Background warna merah */
+.bg-red {
+    background-color: #ff4d4d; /* Warna merah */
+}
+
+/* Kotak form di tengah */
+.edit-form-box {
+    background-color: #fff; /* Warna putih untuk form */
+    padding: 20px; /* Spasi dalam form */
+    border-radius: 8px; /* Sudut melengkung */
+    width: 100%;
+    max-width: 500px; /* Lebar maksimal */
+}
+
+/* Bayangan untuk form */
+.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul form */
+.edit-form-box h2 {
+    font-size: 24px;
+    color: #333; /* Warna teks */
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #007bff; /* Biru untuk tombol utama */
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Abu-abu untuk tombol batal */
+    border: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .edit-form-box {
+        padding: 15px; /* Kurangi padding di layar kecil */
+    }
+}

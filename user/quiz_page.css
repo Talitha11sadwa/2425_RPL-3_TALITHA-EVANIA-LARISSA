@@ -1,0 +1,126 @@
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: linear-gradient(135deg, #8B0000, #b71c1c);
+    background-attachment: fixed;
+    color: #f9f9f9;
+}
+
+/* Title & timer */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 2.4em;
+    font-weight: 700;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #f0f0f0;
+}
+
+#timer {
+    text-align: center;
+    font-size: 1.4em;
+    color: #ffe0e0;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Form container (card) */
+form {
+    max-width: 880px;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.95);
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    color: #333;
+}
+
+/* Question section */
+.question {
+    margin-bottom: 30px;
+    border-left: 5px solid #b8002e;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    background: #fafafa;
+}
+
+.question strong {
+    font-size: 1.2em;
+    color: #222;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+    font-size: 1em;
+    color: #444;
+    padding: 10px 12px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.1);
+}
+
+label:hover {
+    background: #ffe0e5;
+}
+
+input[type="radio"]:checked + label {
+    background: #ffcbd7;
+    border-left: 4px solid #b8002e;
+}
+
+/* Button styles */
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #b8002e;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #920026;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    form {
+        padding: 25px;
+    }
+
+    .question {
+        padding-left: 15px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 12px;
+    }
+}
